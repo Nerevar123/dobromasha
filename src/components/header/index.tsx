@@ -54,7 +54,7 @@ const Bold = styled.span`
 
 export const Header = () => {
   const location = useLocation();
-  console.log(location.pathname);
+
   return (
     <Root>
       <Logo to={''}>

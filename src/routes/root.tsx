@@ -1,5 +1,5 @@
 import { Suspense } from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet, ScrollRestoration } from 'react-router-dom';
 import styled from 'styled-components';
 
 import { Footer } from '../components/footer';
@@ -21,6 +21,7 @@ export const Root = () => {
   return (
     <Suspense fallback={<Preloader visible />}>
       <GlobalStyles />
+      <ScrollRestoration />
       <App>
         <OutletWrapper>
           <Header />
