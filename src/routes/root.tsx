@@ -11,6 +11,9 @@ const App = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+`;
+
+const OutletWrapper = styled.div`
   padding-inline: 120px;
 `;
 
@@ -19,8 +22,10 @@ export const Root = () => {
     <Suspense fallback={<Preloader visible />}>
       <GlobalStyles />
       <App>
-        <Header />
-        <Outlet />
+        <OutletWrapper>
+          <Header />
+          <Outlet />
+        </OutletWrapper>
         <Footer />
       </App>
     </Suspense>

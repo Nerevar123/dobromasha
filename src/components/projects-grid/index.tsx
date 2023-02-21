@@ -23,7 +23,7 @@ const Root = styled.section`
   gap: 30px;
 `;
 
-const Wrapper = styled(Link)<{ area: string }>`
+const WrapperLink = styled(Link)<{ area: string }>`
   grid-area: ${({ area }) => area};
   position: relative;
 `;
@@ -44,14 +44,15 @@ const Overlay = styled.div`
   transition: opacity 0.35s ease-in-out, visibility 0.35s ease-in-out;
   z-index: 10;
 
-  ${Wrapper}:hover & {
+  ${WrapperLink}:hover & {
     opacity: 1;
     visibility: visible;
   }
 `;
 
 const OverlayText = styled.span`
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: 300;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -67,38 +68,38 @@ const Image = styled.img`
 export const ProjectsGrid = () => {
   return (
     <Root>
-      <Wrapper to={''} area={'a'}>
+      <WrapperLink to={'projects/1'} area={'a'}>
         <Overlay>
           <Checkmarx />
           <OverlayText>SKO 2023 event</OverlayText>
         </Overlay>
         <Image src={img1} />
-      </Wrapper>
-      <Wrapper to={''} area={'b'}>
+      </WrapperLink>
+      <WrapperLink to={'projects/2'} area={'b'}>
         <Image src={img2} />
         <Overlay>
           <Checkmarx />
           <OverlayText>Social Tiles and Banners</OverlayText>
         </Overlay>
-      </Wrapper>
-      <Wrapper to={''} area={'c'}>
+      </WrapperLink>
+      <WrapperLink to={'projects/3'} area={'c'}>
         <Image src={img3} />
         <Overlay>
           <Hackathon />
         </Overlay>
-      </Wrapper>
-      <Wrapper to={''} area={'d'}>
+      </WrapperLink>
+      <WrapperLink to={'projects/4'} area={'d'}>
         <Image src={img1} />
         <Overlay>
           <Checkmate />
         </Overlay>
-      </Wrapper>
-      <Wrapper to={''} area={'e'}>
+      </WrapperLink>
+      <WrapperLink to={'projects/5'} area={'e'}>
         <Image src={img4} />
         <Overlay>
           <Checkmate />
         </Overlay>
-      </Wrapper>
+      </WrapperLink>
     </Root>
   );
 };

@@ -15,10 +15,10 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0 auto;
     font-family: Inter, Helvetica, Arial, sans-serif;
     font-size: 14px;
-    background: ${Colors.background};
+    background-color: ${Colors.background};
     color: ${Colors.black};
     box-sizing: border-box;
-    scrollbar-color: ${Colors.gray} ${Colors.white};
+    scrollbar-color: ${Colors.lightGray} ${Colors.white};
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -55,13 +55,13 @@ export const GlobalStyles = createGlobalStyle`
 
   ::-webkit-scrollbar {
     background-color: ${Colors.white};
-    width: 4px;
-    height: 4px;
+    width: 6px;
+    height: 6px;
   }
 
   ::-webkit-scrollbar-thumb {
     position: absolute;
-    background: ${Colors.gray};
+    background: ${Colors.lightGray};
     border-radius: 3px;
   }
 `;

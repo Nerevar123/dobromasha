@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 
 import { Colors } from '../../styles/colors.styles';
@@ -28,7 +28,7 @@ const StyledLink = styled(Link)`
 `;
 
 const Logo = styled(StyledLink)`
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1.3;
   color: ${Colors.gray};
 `;
@@ -45,6 +45,7 @@ const ColorButton = styled(Button)`
   background-color: ${Colors.lightGray};
   padding: 10px 28px;
   border-radius: 20px;
+  text-decoration-color: ${Colors.lightGray};
 `;
 
 const Bold = styled.span`
@@ -52,10 +53,13 @@ const Bold = styled.span`
 `;
 
 export const Header = () => {
+  const location = useLocation();
+  console.log(location.pathname);
   return (
     <Root>
       <Logo to={''}>
-        <Bold>Maria Dobrovolskaya</Bold> | Graphic Designer and Illustrator
+        <Bold>Maria Dobrovolskaya</Bold>{' '}
+        {location.pathname !== '/' && '| Graphic Designer and Illustrator'}
       </Logo>
       <Buttons>
         <Button to={'about'}>about</Button>

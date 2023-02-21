@@ -1,27 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { RouterProvider } from 'react-router-dom';
 import { StyleSheetManager } from 'styled-components';
 
-import { About, ErrorPage, Projects, Root } from './routes';
-
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Root />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: '',
-        element: <Projects />,
-      },
-      {
-        path: 'about',
-        element: <About />,
-      },
-    ],
-  },
-]);
+import { router } from './router';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
