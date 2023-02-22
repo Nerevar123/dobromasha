@@ -8,13 +8,10 @@ const Root = styled.header`
   justify-content: space-between;
   align-items: center;
   padding-block: 40px;
-`;
 
-const Buttons = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
+  @media screen and (max-width: 800px) {
+    padding-block: 24px;
+  }
 `;
 
 const StyledLink = styled(Link)`
@@ -31,6 +28,22 @@ const Logo = styled(StyledLink)`
   font-size: 22px;
   line-height: 1.3;
   color: ${Colors.gray};
+
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+    padding-right: 60px;
+  }
+`;
+
+const Buttons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 `;
 
 const Button = styled(StyledLink)`

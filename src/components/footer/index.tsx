@@ -7,10 +7,17 @@ const Root = styled.footer`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 120px;
+  margin-top: 100px;
   padding-block: 50px;
-  padding-inline: 120px;
+  padding-inline: 8.33%;
   background-color: ${Colors.white};
+
+  @media screen and (max-width: 850px) {
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 40px;
+    padding-block: 24px;
+  }
 `;
 
 const Copyright = styled.p`
@@ -22,7 +29,14 @@ const Copyright = styled.p`
 
 const Contacts = styled.div`
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 8px;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    gap: 4px;
+  }
 `;
 
 const StyledLink = styled(Link)`
@@ -39,12 +53,19 @@ const StyledLink = styled(Link)`
   }
 `;
 
+const Separator = styled.span`
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
+`;
+
 export const Footer = () => {
   return (
     <Root>
       <Copyright>© 2023 Maria Dobrovolskaya</Copyright>
       <Contacts>
-        <StyledLink to={'tel:+9720585851762'}>+9720585851762</StyledLink> |{' '}
+        <StyledLink to={'tel:+9720585851762'}>+9720585851762</StyledLink>{' '}
+        <Separator>|</Separator>{' '}
         <StyledLink to={'mailto:dobrovolskayamaria@gmail.com'}>
           dobrovolskayamaria@gmail.com
         </StyledLink>

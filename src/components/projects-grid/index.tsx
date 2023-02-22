@@ -21,6 +21,12 @@ const Root = styled.section`
     'd e'
     'f f';
   gap: 30px;
+
+  @media screen and (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
 `;
 
 const WrapperLink = styled(Link)<{ area: string }>`

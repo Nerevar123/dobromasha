@@ -8,7 +8,16 @@ import {
   img2_6,
   img2_7,
 } from '../../assets/projects/2';
-import { Header, Logo, Project, Slide, Slides, Subtitle, Title } from './project.styles';
+import {
+  Copyright,
+  Header,
+  Logo,
+  Project,
+  Slide,
+  Slides,
+  Subtitle,
+  Title,
+} from './project.styles';
 
 export const Project2 = () => {
   return (
@@ -19,7 +28,10 @@ export const Project2 = () => {
           Rebranding for Employee event which will take place both online and offline.
           Hackathon (also known as a hack day, hackfest, datathon or codefest) - is a
           social coding event that brings computer programmers and other interested people
-          together to improve upon or build a new software program.
+          together to improve upon or build a new software program.{' '}
+          <Copyright>
+            Proprietary information of Checkmarx Ltd. © All rights reserved worldwide
+          </Copyright>
         </Subtitle>
         <Logo>
           <CheckmarxBlue />

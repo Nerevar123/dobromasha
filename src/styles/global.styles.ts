@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
   html,
   body {
     height: 100%;
-    min-width: 360px;
+    min-width: 380px;
     max-width: 1960px;
     margin: 0 auto;
     font-family: Inter, Helvetica, Arial, sans-serif;

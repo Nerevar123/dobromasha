@@ -10,19 +10,36 @@ export const Header = styled.div`
   grid-template-areas:
     'title logo'
     'text logo';
+  align-items: center;
   column-gap: 120px;
   row-gap: 30px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-block: 60px;
   color: ${Colors.gray};
+
+  @media screen and (max-width: 800px) {
+    grid-template-areas:
+      'title logo'
+      'text text';
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-block: 30px;
+  }
 `;
 
 export const Title = styled.h2`
   font-size: 90px;
   font-weight: 500;
-  line-height: 100px;
+  line-height: 1.1;
   margin-block: 0;
   grid-area: title;
+
+  @media screen and (max-width: 800px) {
+    font-size: 40px;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 32px;
+  }
 `;
 
 export const Subtitle = styled.p`
@@ -31,9 +48,22 @@ export const Subtitle = styled.p`
   grid-area: text;
 `;
 
+export const Copyright = styled.span`
+  color: ${Colors.textGray};
+  margin-top: 12px;
+  margin-bottom: 0;
+`;
+
 export const Logo = styled.div`
   grid-area: logo;
   padding-top: 60px;
+
+  @media screen and (max-width: 800px) {
+    padding-top: 0;
+    & > svg {
+      width: 120px;
+    }
+  }
 `;
 
 export const Slides = styled.div`

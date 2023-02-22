@@ -18,6 +18,10 @@ const Title = styled.h1`
   margin-top: 32px;
   margin-bottom: 8px;
   letter-spacing: 0.02em;
+
+  @media screen and (max-width: 800px) {
+    font-size: 60px;
+  }
 `;
 
 const Subtitle = styled.p`
@@ -27,6 +31,10 @@ const Subtitle = styled.p`
   margin-bottom: 80px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
+
+  @media screen and (max-width: 800px) {
+    font-size: 16px;
+  }
 `;
 
 export const Projects = () => {
