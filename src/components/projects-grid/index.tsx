@@ -9,6 +9,7 @@ import {
   img2,
   img3,
   img4,
+  img5,
 } from '../../assets/main/';
 import { Colors } from '../../styles/colors.styles';
 
@@ -95,15 +96,21 @@ export const ProjectsGrid = () => {
         </Overlay>
       </WrapperLink>
       <WrapperLink to={'projects/4'} area={'d'}>
-        <Image src={img1} />
+        <Image src={img4} />
         <Overlay>
           <Checkmate />
         </Overlay>
       </WrapperLink>
       <WrapperLink to={'projects/5'} area={'e'}>
-        <Image src={img4} />
+        <Image src={img5} />
         <Overlay>
           <Checkmate />
+        </Overlay>
+      </WrapperLink>
+      <WrapperLink to={'projects/6'} area={'f'}>
+        <Image src={img3} />
+        <Overlay>
+          <Hackathon />
         </Overlay>
       </WrapperLink>
     </Root>

@@ -52,14 +52,13 @@ export const Copyright = styled.span`
   color: ${Colors.textGray};
   margin-top: 12px;
   margin-bottom: 0;
+  display: block;
 `;
 
 export const Logo = styled.div`
   grid-area: logo;
-  padding-top: 60px;
 
   @media screen and (max-width: 800px) {
-    padding-top: 0;
     & > svg {
       width: 120px;
     }
@@ -85,6 +84,12 @@ export const TextBlock = styled.div`
   margin-block: 80px;
   padding-top: 8px;
   border-top: 1px solid ${Colors.gray};
+`;
+
+export const CaptureBlock = styled.div`
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid ${Colors.gray};
 `;
 
 export const Name = styled.h3`

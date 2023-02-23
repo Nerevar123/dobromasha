@@ -14,6 +14,7 @@ import {
   img3_12,
 } from '../../assets/projects/3';
 import {
+  CaptureBlock,
   Copyright,
   Description,
   Header,
@@ -74,7 +75,13 @@ export const Project3 = () => {
         </TextBlock>
       </Description>
       <Slides>
+        <CaptureBlock>
+          <Name>Designed Logo</Name>
+        </CaptureBlock>
         <Slide src={img3_2} />
+        <CaptureBlock>
+          <Name>Power Point Slides</Name>
+        </CaptureBlock>
         <Slide src={img3_3} />
         <Slide src={img3_4} />
         <Slide src={img3_5} />

@@ -6,9 +6,8 @@ import { Link, Outlet, ScrollRestoration, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 
 import { img1_14 } from '../assets/projects/1';
-import { Footer } from '../components/footer';
-import { Header } from '../components/header';
-import { Preloader } from '../components/preloader';
+import { img4_9 } from '../assets/projects/4';
+import { Footer, Header, Preloader } from '../components';
 import { Colors } from '../styles/colors.styles';
 import { GlobalStyles } from '../styles/global.styles';
 import { Slide } from './projects/project.styles';
@@ -74,6 +73,7 @@ export const Root = () => {
           <Outlet />
         </OutletWrapper>
         {location.pathname === '/projects/1' && <Slide src={img1_14} />}
+        {location.pathname === '/projects/4' && <Slide src={img4_9} />}
         <Footer />
       </App>
     </Suspense>
