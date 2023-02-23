@@ -101,7 +101,7 @@ export const ProjectsGrid = () => {
           <Checkmate />
         </Overlay>
       </WrapperLink>
-      <WrapperLink to={'projects/5'} area={'e'}>
+      <WrapperLink to={'projects/6'} area={'e'}>
         <Image src={img5} />
         <Overlay>
           <Checkmate />
