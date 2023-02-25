@@ -1,3 +1,4 @@
+import { Connectika } from '../../assets/main';
 import {
   img4_1,
   img4_2,
@@ -12,7 +13,6 @@ import {
   Copyright,
   Header,
   Logo,
-  Name,
   Project,
   Slide,
   Slides,
@@ -36,7 +36,7 @@ export const Project4 = () => {
           </Copyright>
         </Subtitle>
         <Logo>
-          <Name>Connectika (Ecosystem)</Name>
+          <Connectika />
         </Logo>
       </Header>
       <Slides>

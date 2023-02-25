@@ -4,12 +4,14 @@ import styled from 'styled-components';
 import {
   Checkmarx,
   Checkmate,
+  Connectika,
   Hackathon,
   img1,
   img2,
   img3,
   img4,
   img5,
+  Yeda,
 } from '../../assets/main/';
 import { Colors } from '../../styles/colors.styles';
 
@@ -98,19 +100,21 @@ export const ProjectsGrid = () => {
       <WrapperLink to={'projects/4'} area={'d'}>
         <Image src={img4} />
         <Overlay>
-          <Checkmate />
+          <Connectika />
+          <OverlayText>Web Design & Illustrations</OverlayText>
         </Overlay>
       </WrapperLink>
-      <WrapperLink to={'projects/6'} area={'e'}>
+      <WrapperLink to={'projects/5'} area={'e'}>
         <Image src={img5} />
         <Overlay>
-          <Checkmate />
+          <Yeda />
+          <OverlayText>Web Design & Illustrations</OverlayText>
         </Overlay>
       </WrapperLink>
       <WrapperLink to={'projects/6'} area={'f'}>
         <Image src={img3} />
         <Overlay>
-          <Hackathon />
+          <Checkmate />
         </Overlay>
       </WrapperLink>
     </Root>

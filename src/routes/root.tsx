@@ -7,6 +7,7 @@ import styled from 'styled-components';
 
 import { img1_14 } from '../assets/projects/1';
 import { img4_9 } from '../assets/projects/4';
+import { img5_8 } from '../assets/projects/5';
 import { Footer, Header, Preloader } from '../components';
 import { Colors } from '../styles/colors.styles';
 import { GlobalStyles } from '../styles/global.styles';
@@ -74,6 +75,8 @@ export const Root = () => {
         </OutletWrapper>
         {location.pathname === '/projects/1' && <Slide src={img1_14} />}
         {location.pathname === '/projects/4' && <Slide src={img4_9} />}
+        {location.pathname === '/projects/5' && <Slide src={img5_8} />}
+
         <Footer />
       </App>
     </Suspense>
