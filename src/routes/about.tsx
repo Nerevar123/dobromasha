@@ -30,7 +30,7 @@ const TextWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 70%;
+  max-width: 72%;
 `;
 
 const Title = styled.h1`
@@ -38,11 +38,11 @@ const Title = styled.h1`
   font-size: 100px;
   letter-spacing: 0.02em;
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 `;
 
 const Text = styled.p`
-  font-size: 14px;
+  font-size: 16px;
   line-height: 28px;
 `;
 

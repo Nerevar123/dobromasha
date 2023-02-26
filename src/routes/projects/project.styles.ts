@@ -13,16 +13,23 @@ export const Header = styled.div`
   align-items: center;
   column-gap: 120px;
   row-gap: 30px;
-  padding-block: 60px;
+  padding-block: 70px;
   color: ${Colors.gray};
 
+  @media screen and (max-width: 1050px) {
+    column-gap: 30px;
+  }
+
   @media screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
     grid-template-areas:
-      'title logo'
-      'text text';
+      'logo'
+      'title'
+      'text';
     row-gap: 20px;
     column-gap: 20px;
-    padding-block: 30px;
+    padding-top: 80px;
+    padding-bottom: 60px;
   }
 `;
 
@@ -34,11 +41,13 @@ export const Title = styled.h2`
   grid-area: title;
 
   @media screen and (max-width: 800px) {
-    font-size: 40px;
+    font-size: 64px;
+    line-height: 1.28;
+    margin-bottom: 12px;
   }
 
   @media screen and (max-width: 450px) {
-    font-size: 32px;
+    font-size: 40px;
   }
 `;
 
@@ -47,6 +56,11 @@ export const Subtitle = styled.p`
   line-height: 28px;
   grid-area: text;
   margin-block: 0;
+  max-width: 85%;
+
+  @media screen and (max-width: 800px) {
+    max-width: 100%;
+  }
 `;
 
 export const Copyright = styled.span`
@@ -60,6 +74,12 @@ export const Logo = styled.div`
   grid-area: logo;
   align-self: flex-start;
   padding-top: 66px;
+
+  @media screen and (max-width: 1050px) {
+    & > svg {
+      width: 150px;
+    }
+  }
 
   @media screen and (max-width: 800px) {
     padding-top: 0;
@@ -85,16 +105,9 @@ export const Slide = styled.img`
 export const Description = styled.div``;
 
 export const TextBlock = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-block: 80px;
-  padding-top: 8px;
-  border-top: 1px solid ${Colors.gray};
-`;
-
-export const CaptureBlock = styled.div`
-  padding-bottom: 16px;
-  margin-bottom: 16px;
+  padding-bottom: 8px;
+  margin-bottom: 0;
+  margin-top: 70px;
   border-bottom: 1px solid ${Colors.gray};
 `;
 
@@ -109,6 +122,11 @@ export const Name = styled.h3`
 export const Text = styled.p`
   font-size: 14px;
   line-height: 28px;
-  margin-block: 0;
+  margin-block: 12px;
   color: ${Colors.textGray};
+  max-width: 50%;
+
+  @media screen and (max-width: 800px) {
+    max-width: 100%;
+  }
 `;

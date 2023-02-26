@@ -65,6 +65,29 @@ const Bold = styled.span`
   font-weight: 700;
 `;
 
+const MobileWrapper = styled.div`
+  display: inline;
+
+  @media screen and (max-width: 800px) {
+    display: block;
+    margin-top: 4px;
+  }
+`;
+
+const Separator = styled.span`
+  margin-inline: 4px;
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+`;
+
+const Regular = styled.span`
+  @media screen and (max-width: 800px) {
+    margin-top: 8px;
+  }
+`;
+
 export const Header = () => {
   const location = useLocation();
 
@@ -72,7 +95,12 @@ export const Header = () => {
     <Root>
       <Logo to={''}>
         <Bold>Maria Dobrovolskaya</Bold>{' '}
-        {location.pathname !== '/' && '| Graphic Designer and Illustrator'}
+        {location.pathname !== '/' ? (
+          <MobileWrapper>
+            <Separator>|</Separator>
+            <Regular>Graphic Designer & Illustrator</Regular>
+          </MobileWrapper>
+        ) : null}
       </Logo>
       <Buttons>
         <Button to={'about'}>about</Button>

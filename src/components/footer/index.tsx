@@ -15,7 +15,7 @@ const Root = styled.footer`
   @media screen and (max-width: 850px) {
     flex-direction: column;
     gap: 16px;
-    margin-top: 40px;
+    margin-top: 100px;
     padding-block: 24px;
   }
 `;

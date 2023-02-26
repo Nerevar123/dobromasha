@@ -14,7 +14,6 @@ import {
   img3_12,
 } from '../../assets/projects/3';
 import {
-  CaptureBlock,
   Copyright,
   Description,
   Header,
@@ -33,7 +32,7 @@ export const Project3 = () => {
   return (
     <Project>
       <Header>
-        <Title>Hackathon Event for Checkmarx</Title>
+        <Title>Hackathon event for Checkmarx</Title>
         <Subtitle>
           Rebranding for Employee event which will take place both online and offline.
           Hackathon (also known as a hack day, hackfest, datathon or codefest) - is a
@@ -53,35 +52,35 @@ export const Project3 = () => {
       <Description>
         <TextBlock>
           <Name>Problem</Name>
-          <Text>
-            Come up with a system design for the event that corresponds to the theme of
-            this year (Platform Play, Self Service, Low-Touch, Advanced solutions,
-            Operational excellent) and shows Innovations, Speed and theme of Fast and
-            Furious/Formula 1.
-          </Text>
         </TextBlock>
+        <Text>
+          Come up with a system design for the event that corresponds to the theme of this
+          year (Platform Play, Self Service, Low-Touch, Advanced solutions, Operational
+          excellent) and shows Innovations, Speed and theme of Fast and Furious/Formula 1.
+        </Text>
         <TextBlock>
           <Name>Concept</Name>
-          <Text>
-            A logo and visuals were created that emphasize movement through dynamic
-            elements. In addition to movement, the elements are part of the code, which
-            represents Checkmarx&apos;s main direction. The word hackathon is a
-            portmanteau of the words hacker, which means clever programmer, and marathon,
-            an event marked by endurance. HTML is the code that is used to structure a web
-            page and its content. HTML elements are delineated by tags, written using
-            angle brackets. The hackathon atmosphere should be emphasized by using
-            enthusiastic people who are passionate about the lesson.
-          </Text>
         </TextBlock>
+        <Text>
+          A logo and visuals were created that emphasize movement through dynamic
+          elements. In addition to movement, the elements are part of the code, which
+          represents Checkmarx&apos;s main direction. The word hackathon is a portmanteau
+          of the words hacker, which means clever programmer, and marathon, an event
+          marked by endurance. HTML is the code that is used to structure a web page and
+          its content. HTML elements are delineated by tags, written using angle brackets.
+          The hackathon atmosphere should be emphasized by using enthusiastic people who
+          are passionate about the lesson.
+        </Text>
+        {/* </TextBlock> */}
       </Description>
       <Slides>
-        <CaptureBlock>
+        <TextBlock>
           <Name>Designed Logo</Name>
-        </CaptureBlock>
+        </TextBlock>
         <Slide src={img3_2} />
-        <CaptureBlock>
+        <TextBlock>
           <Name>Power Point Slides</Name>
-        </CaptureBlock>
+        </TextBlock>
         <Slide src={img3_3} />
         <Slide src={img3_4} />
         <Slide src={img3_5} />

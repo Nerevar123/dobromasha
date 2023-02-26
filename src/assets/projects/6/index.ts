@@ -9,6 +9,7 @@ import img6_8 from './8.webp';
 import img6_9 from './9.webp';
 import img6_10 from './10.webp';
 import img6_11 from './11.webp';
+import img6_12 from './12.webp';
 
 export {
   img6_1,
@@ -22,4 +23,5 @@ export {
   img6_9,
   img6_10,
   img6_11,
+  img6_12,
 };

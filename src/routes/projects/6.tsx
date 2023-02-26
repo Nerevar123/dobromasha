@@ -11,9 +11,10 @@ import {
   img6_9,
   img6_10,
   img6_11,
+  img6_12,
 } from '../../assets/projects/6';
+import { useWindowSize } from '../../hooks/useWindowSize';
 import {
-  CaptureBlock,
   Copyright,
   Header,
   Logo,
@@ -22,10 +23,13 @@ import {
   Slide,
   Slides,
   Subtitle,
+  TextBlock,
   Title,
 } from './project.styles';
 
 export const Project6 = () => {
+  const { width } = useWindowSize();
+
   return (
     <Project>
       <Header>
@@ -44,14 +48,14 @@ export const Project6 = () => {
         </Logo>
       </Header>
       <Slides>
-        <CaptureBlock>
+        <TextBlock>
           <Name>First concepts of logo and visuals</Name>
-        </CaptureBlock>
+        </TextBlock>
         <Slide src={img6_1} />
         <Slide src={img6_2} />
-        <CaptureBlock>
+        <TextBlock>
           <Name>Final concept</Name>
-        </CaptureBlock>
+        </TextBlock>
         <Slide src={img6_3} />
         <Slide src={img6_4} />
         <Slide src={img6_5} />
@@ -60,10 +64,10 @@ export const Project6 = () => {
         <Slide src={img6_8} />
         <Slide src={img6_9} />
         <Slide src={img6_10} />
-        <CaptureBlock>
+        <TextBlock>
           <Name>Landing page concepts</Name>
-        </CaptureBlock>
-        <Slide src={img6_11} />
+        </TextBlock>
+        {width > 800 ? <Slide src={img6_11} /> : <Slide src={img6_12} />}
       </Slides>
     </Project>
   );

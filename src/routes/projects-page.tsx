@@ -13,11 +13,11 @@ const Root = styled.main`
 `;
 
 const Title = styled.h1`
-  font-size: 100px;
+  font-size: 128px;
   line-height: 1;
-  font-weight: 700;
-  margin-top: 32px;
-  margin-bottom: 8px;
+  font-weight: 500;
+  margin-top: 120px;
+  margin-bottom: 16px;
   letter-spacing: 0.02em;
 
   @media screen and (max-width: 800px) {
@@ -29,7 +29,7 @@ const Subtitle = styled.p`
   font-size: 22px;
   line-height: 1.3;
   margin-top: 0;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
   text-transform: uppercase;
   letter-spacing: 0.02em;
 

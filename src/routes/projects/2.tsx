@@ -12,7 +12,6 @@ import {
   img2_10,
 } from '../../assets/projects/2';
 import {
-  CaptureBlock,
   Copyright,
   Header,
   Logo,
@@ -21,6 +20,7 @@ import {
   Slide,
   Slides,
   Subtitle,
+  TextBlock,
   Title,
 } from './project.styles';
 
@@ -28,7 +28,7 @@ export const Project2 = () => {
   return (
     <Project>
       <Header>
-        <Title>Social Tiles, Banners and Collateral</Title>
+        <Title>Social tiles, banners and collateral</Title>
         <Subtitle>
           As a graphic marketing designer for Checkmarx Company, I created a wide range of
           visually engaging and effective marketing assets, including social graphics,
@@ -46,21 +46,21 @@ export const Project2 = () => {
         </Logo>
       </Header>
       <Slides>
-        <CaptureBlock>
+        <TextBlock>
           <Name>Social tiles and special banners</Name>
-        </CaptureBlock>
+        </TextBlock>
         <Slide src={img2_1} />
         <Slide src={img2_2} />
         <Slide src={img2_3} />
-        <CaptureBlock>
+        <TextBlock>
           <Name>Collateral</Name>
-        </CaptureBlock>
+        </TextBlock>
         <Slide src={img2_4} />
         <Slide src={img2_5} />
         <Slide src={img2_6} />
-        <CaptureBlock>
-          <Name>Banners</Name>
-        </CaptureBlock>
+        <TextBlock>
+          <Name>Ad Banners</Name>
+        </TextBlock>
         <Slide src={img2_7} />
         <Slide src={img2_8} />
         <Slide src={img2_9} />
