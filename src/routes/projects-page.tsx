@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import { ProjectsGrid } from '../components/projects-grid';
+import { SocialIcons } from '../components/social-icons';
 import { Colors } from '../styles/colors.styles';
 
 const Root = styled.main`
@@ -43,6 +44,7 @@ export const Projects = () => {
       <Title>I’m Maria</Title>
       <Subtitle>a Graphic Designer and Illustrator</Subtitle>
       <ProjectsGrid />
+      <SocialIcons />
     </Root>
   );
 };

@@ -11,6 +11,7 @@ import {
   img3,
   img4,
   img5,
+  img6,
   Yeda,
 } from '../../assets/main/';
 import { Colors } from '../../styles/colors.styles';
@@ -112,7 +113,7 @@ export const ProjectsGrid = () => {
         </Overlay>
       </WrapperLink>
       <WrapperLink to={'projects/6'} area={'f'}>
-        <Image src={img3} />
+        <Image src={img6} />
         <Overlay>
           <Checkmate />
         </Overlay>

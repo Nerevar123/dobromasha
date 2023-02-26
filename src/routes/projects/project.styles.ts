@@ -46,6 +46,7 @@ export const Subtitle = styled.p`
   font-size: 14px;
   line-height: 28px;
   grid-area: text;
+  margin-block: 0;
 `;
 
 export const Copyright = styled.span`
@@ -57,8 +58,13 @@ export const Copyright = styled.span`
 
 export const Logo = styled.div`
   grid-area: logo;
+  align-self: flex-start;
+  padding-top: 66px;
 
   @media screen and (max-width: 800px) {
+    padding-top: 0;
+    align-self: center;
+
     & > svg {
       width: 120px;
     }

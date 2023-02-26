@@ -76,7 +76,9 @@ export const Header = () => {
       </Logo>
       <Buttons>
         <Button to={'about'}>about</Button>
-        <ColorButton to={`resume`}>resume</ColorButton>
+        <ColorButton to={`/Dobrovolskaya.pdf`} target="_blank">
+          resume
+        </ColorButton>
       </Buttons>
     </Root>
   );

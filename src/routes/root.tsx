@@ -17,6 +17,7 @@ const App = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-height: 100vh;
 
   & > div:first-child {
     @media screen and (min-width: 801px) {
@@ -27,6 +28,7 @@ const App = styled.div`
 
 const OutletWrapper = styled.div`
   padding-inline: 8.33%;
+  flex: 1;
 
   @media screen and (max-width: 800px) {
     padding-inline: 24px;
