@@ -58,6 +58,10 @@ const Overlay = styled.div`
     opacity: 1;
     visibility: visible;
   }
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
 `;
 
 const OverlayText = styled.span`
