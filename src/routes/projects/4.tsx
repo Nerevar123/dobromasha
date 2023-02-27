@@ -26,13 +26,10 @@ export const Project4 = () => {
       <Header>
         <Title>Web Design and Illustrations</Title>
         <Subtitle>
-          Rebranding for Employee event which will take place both online and offline.
-          Hackathon (also known as a hack day, hackfest, datathon or codefest) - is a
-          social coding event that brings computer programmers and other interested people
-          together to improve upon or build a new software program.
+          Connectika (previous Ecosystem) is an app integration platform that automates
+          workflows by moving information between web apps.
           <Copyright>
-            Proprietary information of Connectika (Ecosystem). © All rights reserved
-            worldwide
+            Intellectual property of Connectika. © All rights reserved worldwide
           </Copyright>
         </Subtitle>
         <Logo>

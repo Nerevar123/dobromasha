@@ -35,12 +35,13 @@ export const Project6 = () => {
       <Header>
         <Title>Checkmate Design System</Title>
         <Subtitle>
-          RBriefFormat: 100% virtual summit Objective: Thought Leadership on Application
-          Security Theme: Formula 1 “engineered insanity” with speed, style, and
-          engineering finesse qualities manifested in the Checkmarx One platform for
-          Application Security Testing in the modern world (Folder number 185)
+          Checkmate is a 100% virtual summit aimed at providing thought leadership on
+          application security. The theme of the summit is Formula 1, with a focus on the
+          qualities of speed, style, and engineering finesse. These qualities are
+          manifested in the Checkmarx One platform for application security testing in the
+          modern world
           <Copyright>
-            Proprietary information of Checkmarx Ltd. © All rights reserved worldwide
+            Intellectual property of Checkmarx Ltd. © All rights reserved worldwide
           </Copyright>
         </Subtitle>
         <Logo>

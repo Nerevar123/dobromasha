@@ -25,12 +25,11 @@ export const Project5 = () => {
       <Header>
         <Title>Web Design and Illustrations</Title>
         <Subtitle>
-          Rebranding for Employee event which will take place both online and offline.
-          Hackathon (also known as a hack day, hackfest, datathon or codefest) - is a
-          social coding event that brings computer programmers and other interested people
-          together to improve upon or build a new software program.
+          Yeda is a centralized platform that provides tools for creating online courses,
+          connecting professionals with workplaces for employee training, and offering a
+          simple and convenient learning process.
           <Copyright>
-            Proprietary information of Yeda. © All rights reserved worldwide
+            Intellectual property of Yeda. © All rights reserved worldwide
           </Copyright>
         </Subtitle>
         <Logo>

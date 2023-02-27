@@ -30,15 +30,12 @@ export const Project2 = () => {
       <Header>
         <Title>Social tiles, banners and collateral</Title>
         <Subtitle>
-          As a graphic marketing designer for Checkmarx Company, I created a wide range of
-          visually engaging and effective marketing assets, including social graphics,
-          banners, special tiles, email structures, digital banners, ads, landing pages,
-          whitepapers, e-books, solution briefs, brochures, datasheets, case studies, and
-          other materials. These designs were aimed at promoting the company&apos;s
-          campaigns and effectively communicating key information to prospects and
-          customers.
+          Checkmarx is the global leader in software security solutions for modern
+          application development. Checkmarx is trusted by more than 40 percent of the
+          Fortune 100 and half of the Fortune 50, including leading organizations such as
+          SAP, Samsung, and Salesforce.com
           <Copyright>
-            Proprietary information of Checkmarx Ltd. © All rights reserved worldwide
+            Intellectual property of Checkmarx Ltd. © All rights reserved worldwide
           </Copyright>
         </Subtitle>
         <Logo>
@@ -59,7 +56,7 @@ export const Project2 = () => {
         <Slide src={img2_5} />
         <Slide src={img2_6} />
         <TextBlock>
-          <Name>Ad Banners</Name>
+          <Name>Banners</Name>
         </TextBlock>
         <Slide src={img2_7} />
         <Slide src={img2_8} />

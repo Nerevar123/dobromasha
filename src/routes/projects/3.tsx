@@ -34,10 +34,13 @@ export const Project3 = () => {
       <Header>
         <Title>Hackathon event for Checkmarx</Title>
         <Subtitle>
-          Rebranding for Employee event which will take place both online and offline.
-          Hackathon (also known as a hack day, hackfest, datathon or codefest) - is a
-          social coding event that brings computer programmers and other interested people
-          together to improve upon or build a new software program.
+          For the Employee Hackathon, I led a rebranding initiative with the main message
+          of &quot;Ready. Set. Code.&quot; The design system included social tiles, email
+          design, landing page design, posters, Zoom and Teams wallpaper, desktop and
+          mobile screen savers, email signatures, stage and booth design, photography
+          curation, and others. The Hackathon aimed to create innovative projects that
+          generate ROI and provide an opportunity to engage people with the company&apos;s
+          products.
           <Copyright>
             Proprietary information of Checkmarx Ltd. © All rights reserved worldwide
           </Copyright>
@@ -54,24 +57,23 @@ export const Project3 = () => {
           <Name>Problem</Name>
         </TextBlock>
         <Text>
-          Come up with a system design for the event that corresponds to the theme of this
-          year (Platform Play, Self Service, Low-Touch, Advanced solutions, Operational
-          excellent) and shows Innovations, Speed and theme of Fast and Furious/Formula 1.
+          Develop a system design for the hackathon event that aligns with this
+          year&apos;s theme, which includes Platform Play, Self Service, Low-Touch,
+          Advanced Solutions, and Operational Excellence. The system design should
+          showcase Innovations, Speed, and the Fast and Furious/Formula 1 theme.
         </Text>
         <TextBlock>
           <Name>Concept</Name>
         </TextBlock>
         <Text>
-          A logo and visuals were created that emphasize movement through dynamic
-          elements. In addition to movement, the elements are part of the code, which
-          represents Checkmarx&apos;s main direction. The word hackathon is a portmanteau
-          of the words hacker, which means clever programmer, and marathon, an event
-          marked by endurance. HTML is the code that is used to structure a web page and
-          its content. HTML elements are delineated by tags, written using angle brackets.
-          The hackathon atmosphere should be emphasized by using enthusiastic people who
-          are passionate about the lesson.
+          The logo and visuals feature dynamic elements that highlight movement and are
+          integrated with Checkmarx&apos; code-centric direction. The term
+          &quot;hackathon&quot; combines &quot;hacker&quot; and &quot;marathon&quot;
+          symbolizing clever programming and endurance, respectively. To create a
+          hackathon atmosphere, the visuals should feature enthusiastic people passionate
+          about the event, with a focus on HTML code and its tags used to structure web
+          pages.
         </Text>
-        {/* </TextBlock> */}
       </Description>
       <Slides>
         <TextBlock>
@@ -79,12 +81,21 @@ export const Project3 = () => {
         </TextBlock>
         <Slide src={img3_2} />
         <TextBlock>
-          <Name>Power Point Slides</Name>
+          <Name>Power Point slides</Name>
         </TextBlock>
         <Slide src={img3_3} />
+        <TextBlock>
+          <Name>Social tiles</Name>
+        </TextBlock>
         <Slide src={img3_4} />
+        <TextBlock>
+          <Name>Wallpapers and digital banners</Name>
+        </TextBlock>
         <Slide src={img3_5} />
         <Slide src={img3_6} />
+        <TextBlock>
+          <Name>Printed assets and SWAG</Name>
+        </TextBlock>
         <Slide src={img3_7} />
         <Slide src={img3_8} />
         <Slide src={img3_9} />

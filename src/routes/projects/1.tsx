@@ -19,10 +19,12 @@ import {
   Copyright,
   Header,
   Logo,
+  Name,
   Project,
   Slide,
   Slides,
   Subtitle,
+  TextBlock,
   Title,
 } from './project.styles';
 
@@ -32,12 +34,14 @@ export const Project1 = () => {
       <Header>
         <Title>SKO Event</Title>
         <Subtitle>
-          Rebranding for Employee event which will take place both online and offline.
-          Hackathon (also known as a hack day, hackfest, datathon or codefest) - is a
-          social coding event that brings computer programmers and other interested people
-          together to improve upon or build a new software program.
+          As the graphic designer for Checkmarx Company&apos;s SKO (Sales Kick-Off), I
+          created a wide range of print and digital assets, including banners, backwalls,
+          signboards, flags, table runners, swag, registration desk, podiums, email
+          banners, and various other digital assets. My cohesive designs aligned with the
+          event&apos;s theme and the company&apos;s brand, and contributed to a successful
+          and memorable experience for attendees.
           <Copyright>
-            Proprietary information of Checkmarx Ltd. © All rights reserved worldwide
+            Intellectual property of Checkmarx Ltd. © All rights reserved worldwide
           </Copyright>
         </Subtitle>
         <Logo>
@@ -45,6 +49,9 @@ export const Project1 = () => {
         </Logo>
       </Header>
       <Slides>
+        <TextBlock>
+          <Name>Printed and digital assets</Name>
+        </TextBlock>
         <Slide src={img1_1} />
         <Slide src={img1_2} />
         <Slide src={img1_3} />
@@ -53,6 +60,9 @@ export const Project1 = () => {
         <Slide src={img1_6} />
         <Slide src={img1_7} />
         <Slide src={img1_8} />
+        <TextBlock>
+          <Name>SWAG</Name>
+        </TextBlock>
         <Slide src={img1_9} />
         <Slide src={img1_10} />
         <Slide src={img1_11} />
