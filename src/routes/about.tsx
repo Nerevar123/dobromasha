@@ -5,8 +5,8 @@ import { Colors } from '../styles/colors.styles';
 
 const Root = styled.section`
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 40px;
+  grid-template-columns: 1fr 2.5fr;
+  gap: 20px;
   justify-items: center;
   margin-top: 100px;
 
@@ -53,13 +53,13 @@ export const About = () => {
       <TextWrapper>
         <Title>Hello,</Title>
         <Text>
-          My name is Maria, I’m a s a graphic marketing designer for Checkmarx Company, I
-          created a wide range of visually engaging and effective marketing assets,
-          including social graphics, banners, special tiles, email structures, digital
-          banners, ads, landing pages, whitepapers, e-books, solution briefs, brochures,
-          datasheets, case studies, and other materials. These designs were aimed at
-          promoting the company&apos;s campaigns and effectively communicating key
-          information to prospects and customers.
+          I am an experienced graphic designer and illustrator who has a proven track
+          record of creating successful print and digital projects from conception to
+          completion. I work closely with clients to ensure their goals and company briefs
+          are met, infusing a creative energy throughout the design process with a keen
+          eye for detail and hierarchy of messaging. I approach every project
+          thoughtfully, creating visuals that not only look great, but also resonate with
+          the target audience.
         </Text>
       </TextWrapper>
     </Root>
