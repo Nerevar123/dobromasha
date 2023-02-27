@@ -42,7 +42,7 @@ export const Project3 = () => {
           generate ROI and provide an opportunity to engage people with the company&apos;s
           products.
           <Copyright>
-            Proprietary information of Checkmarx Ltd. © All rights reserved worldwide
+            Intellectual property of Checkmarx Ltd. © All rights reserved worldwide
           </Copyright>
         </Subtitle>
         <Logo>
