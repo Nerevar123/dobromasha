@@ -39,7 +39,7 @@ export const Project6 = () => {
           application security. The theme of the summit is Formula 1, with a focus on the
           qualities of speed, style, and engineering finesse. These qualities are
           manifested in the Checkmarx One platform for application security testing in the
-          modern world
+          modern world.
           <Copyright>
             Intellectual property of Checkmarx Ltd. © All rights reserved worldwide
           </Copyright>
