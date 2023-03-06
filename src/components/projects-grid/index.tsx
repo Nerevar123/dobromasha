@@ -77,6 +77,7 @@ const OverlayText = styled.span`
 const Image = styled.img`
   width: 100%;
   height: 100%;
+  box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.15);
 `;
 
 export const ProjectsGrid = () => {

@@ -6,13 +6,13 @@ import { Facebook, Gmail, Linkedin, Whatsapp } from '../../assets/social';
 const Root = styled.footer`
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   position: fixed;
   bottom: 120px;
-  left: 20px;
+  left: 30px;
 
   @media screen and (max-width: 950px) {
-    left: 10px;
+    left: 20px;
   }
 
   @media screen and (max-width: 800px) {
