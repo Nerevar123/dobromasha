@@ -2,14 +2,16 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 import { Colors } from '../../styles/colors.styles';
+import { inlinePadding } from '../../styles/global.styles';
 
 const Root = styled.footer`
+  ${inlinePadding};
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 60px;
   padding-block: 50px;
-  padding-inline: 8.33%;
   background-color: ${Colors.white};
 
   @media screen and (max-width: 850px) {
@@ -64,7 +66,7 @@ export const Footer = () => {
     <Root>
       <Copyright>© 2023 Maria Dobrovolskaya</Copyright>
       <Contacts>
-        <StyledLink to={'tel:+9720585851762'}>+9720585851762</StyledLink>{' '}
+        <StyledLink to={'tel:+972585851762'}>+972585851762</StyledLink>{' '}
         <Separator>|</Separator>{' '}
         <StyledLink to={'mailto:dobrovolskayamaria@gmail.com'}>
           dobrovolskayamaria@gmail.com

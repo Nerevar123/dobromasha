@@ -2,8 +2,11 @@ import { Link, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 
 import { Colors } from '../../styles/colors.styles';
+import { inlineMargin } from '../../styles/global.styles';
 
 const Root = styled.header`
+  ${inlineMargin};
+
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -1,10 +1,14 @@
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 import { Colors } from '../../styles/colors.styles';
+import { inlineMargin, inlinePadding } from '../../styles/global.styles';
 
 export const Project = styled.section``;
 
 export const Header = styled.div`
+  ${inlineMargin};
+
   display: grid;
   grid-template-columns: 3fr 1fr;
   grid-template-areas:
@@ -63,6 +67,31 @@ export const Subtitle = styled.p`
   }
 `;
 
+export const Bold = styled.span`
+  font-weight: 700;
+`;
+
+export const BoldBlock = styled(Bold)`
+  display: block;
+  margin-bottom: 12px;
+`;
+
+export const TextLink = styled(Link)`
+  color: ${Colors.textLink};
+  font-weight: 700;
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 1;
+    color: ${Colors.textLink};
+  }
+`;
+
 export const Copyright = styled.span`
   color: ${Colors.textGray};
   margin-top: 12px;
@@ -97,14 +126,23 @@ export const Slides = styled.div`
   gap: 30px;
 `;
 
-export const Slide = styled.img`
+export const BigSlide = styled.img`
   width: 100%;
   height: 100%;
 `;
 
-export const Description = styled.div``;
+export const Slide = styled(BigSlide)`
+  ${inlinePadding};
+`;
+
+export const Description = styled.div<{ mb?: number; mt?: number }>`
+  margin-bottom: ${({ mb }) => mb || 0}px;
+  margin-top: ${({ mt }) => mt || 0}px;
+`;
 
 export const TextBlock = styled.div`
+  ${inlineMargin};
+
   padding-bottom: 8px;
   margin-bottom: 0;
   margin-top: 70px;
@@ -120,6 +158,8 @@ export const Name = styled.h3`
 `;
 
 export const Text = styled.p`
+  ${inlineMargin};
+
   font-size: 14px;
   line-height: 28px;
   margin-block: 12px;

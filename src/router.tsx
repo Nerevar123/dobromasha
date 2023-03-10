@@ -8,6 +8,8 @@ import {
   Project4,
   Project5,
   Project6,
+  Project7,
+  Project8,
 } from './routes/projects';
 
 export const router = createBrowserRouter([
@@ -47,6 +49,14 @@ export const router = createBrowserRouter([
       {
         path: 'projects/6',
         element: <Project6 />,
+      },
+      {
+        path: 'projects/7',
+        element: <Project7 />,
+      },
+      {
+        path: 'projects/8',
+        element: <Project8 />,
       },
     ],
   },

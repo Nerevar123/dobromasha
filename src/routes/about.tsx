@@ -2,8 +2,11 @@ import styled from 'styled-components';
 
 import { avatar } from '../assets/about';
 import { Colors } from '../styles/colors.styles';
+import { inlineMargin } from '../styles/global.styles';
 
 const Root = styled.section`
+  ${inlineMargin};
+
   display: grid;
   grid-template-columns: 1fr 2.5fr;
   gap: 20px;

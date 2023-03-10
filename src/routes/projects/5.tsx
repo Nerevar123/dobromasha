@@ -7,8 +7,10 @@ import {
   img5_5,
   img5_6,
   img5_7,
+  img5_8,
 } from '../../assets/projects/5';
 import {
+  BigSlide,
   Copyright,
   Header,
   Logo,
@@ -44,6 +46,7 @@ export const Project5 = () => {
         <Slide src={img5_5} />
         <Slide src={img5_6} />
         <Slide src={img5_7} />
+        <BigSlide src={img5_8} />
       </Slides>
     </Project>
   );

@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 
 import { Colors } from './colors.styles';
 
@@ -63,5 +63,21 @@ export const GlobalStyles = createGlobalStyle`
     position: absolute;
     background: ${Colors.lightGray};
     border-radius: 3px;
+  }
+`;
+
+export const inlinePadding = css`
+  padding-inline: 8.33%;
+
+  @media screen and (max-width: 800px) {
+    padding-inline: 24px;
+  }
+`;
+
+export const inlineMargin = css`
+  margin-inline: 8.33%;
+
+  @media screen and (max-width: 800px) {
+    margin-inline: 24px;
   }
 `;

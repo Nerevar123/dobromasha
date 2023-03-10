@@ -4,3 +4,5 @@ export { Project3 } from './3';
 export { Project4 } from './4';
 export { Project5 } from './5';
 export { Project6 } from './6';
+export { Project7 } from './7';
+export { Project8 } from './8';

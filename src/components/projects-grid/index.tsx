@@ -12,18 +12,26 @@ import {
   img4,
   img5,
   img6,
+  img7,
+  img8,
+  KinoLogo,
+  KoronaLogo,
   Yeda,
 } from '../../assets/main/';
 import { Colors } from '../../styles/colors.styles';
+import { inlineMargin } from '../../styles/global.styles';
 
 const Root = styled.section`
+  ${inlineMargin};
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
     'a b'
     'c c'
     'd e'
-    'f f';
+    'f f'
+    'g h';
   gap: 30px;
 
   @media screen and (max-width: 800px) {
@@ -121,6 +129,18 @@ export const ProjectsGrid = () => {
         <Image src={img6} />
         <Overlay>
           <Checkmate />
+        </Overlay>
+      </WrapperLink>
+      <WrapperLink to={'projects/7'} area={'g'}>
+        <Image src={img7} />
+        <Overlay>
+          <KinoLogo />
+        </Overlay>
+      </WrapperLink>
+      <WrapperLink to={'projects/8'} area={'h'}>
+        <Image src={img8} />
+        <Overlay>
+          <KoronaLogo />
         </Overlay>
       </WrapperLink>
     </Root>

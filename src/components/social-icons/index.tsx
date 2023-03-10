@@ -28,7 +28,7 @@ export const SocialIcons = () => {
       <SocialLink to={`https://www.facebook.com/dobromasha`} target="_blank">
         <Facebook />
       </SocialLink>
-      <SocialLink to={'tel:+9720585851762'} target="_blank">
+      <SocialLink to={'https://wa.me/+972585851762'} target="_blank">
         <Whatsapp />
       </SocialLink>
       <SocialLink to={'mailto:dobrovolskayamaria@gmail.com'} target="_blank">

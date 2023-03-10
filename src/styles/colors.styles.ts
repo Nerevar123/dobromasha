@@ -6,4 +6,5 @@ export enum Colors {
   gray = '#333333',
   lightGray = '#D9D9D9',
   textGray = '#7A7A7A',
+  textLink = '#2D63C8',
 }
