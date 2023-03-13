@@ -14,6 +14,7 @@ import {
   img6,
   img7,
   img8,
+  img9,
   KinoLogo,
   KoronaLogo,
   Yeda,
@@ -31,7 +32,8 @@ const Root = styled.section`
     'c c'
     'd e'
     'f f'
-    'g h';
+    'g h'
+    'i i';
   gap: 30px;
 
   @media screen and (max-width: 800px) {
@@ -141,6 +143,12 @@ export const ProjectsGrid = () => {
         <Image src={img8} />
         <Overlay>
           <KoronaLogo />
+        </Overlay>
+      </WrapperLink>
+      <WrapperLink to={'projects/9'} area={'i'}>
+        <Image src={img9} />
+        <Overlay>
+          <OverlayText>Textile design</OverlayText>
         </Overlay>
       </WrapperLink>
     </Root>

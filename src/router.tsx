@@ -10,6 +10,7 @@ import {
   Project6,
   Project7,
   Project8,
+  Project9,
 } from './routes/projects';
 
 export const router = createBrowserRouter([
@@ -57,6 +58,10 @@ export const router = createBrowserRouter([
       {
         path: 'projects/8',
         element: <Project8 />,
+      },
+      {
+        path: 'projects/9',
+        element: <Project9 />,
       },
     ],
   },

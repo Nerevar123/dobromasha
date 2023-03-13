@@ -67,6 +67,11 @@ export const Subtitle = styled.p`
   }
 `;
 
+export const SubtitlePart = styled.span`
+  display: block;
+  margin-bottom: 12px;
+`;
+
 export const Bold = styled.span`
   font-weight: 700;
 `;
@@ -147,6 +152,21 @@ export const TextBlock = styled.div`
   margin-bottom: 0;
   margin-top: 70px;
   border-bottom: 1px solid ${Colors.gray};
+  flex: 1;
+`;
+
+export const TextBlockWithLogo = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  svg {
+    ${inlineMargin};
+
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
+  }
 `;
 
 export const Name = styled.h3`
