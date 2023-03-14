@@ -109,9 +109,9 @@ export const Project9 = () => {
           </TextBlock>
           <Katya />
         </TextBlockWithLogo>
-        <BigSlide src={img9_11} />
-        <Slide src={img9_12} />
-        <BigSlide src={img9_13} />
+        <Slide src={img9_11} />
+        <BigSlide src={img9_12} />
+        <Slide src={img9_13} />
         <BigSlide src={img9_14} />
         <BigSlide src={img9_15} />
         <BigSlide src={img9_16} />
