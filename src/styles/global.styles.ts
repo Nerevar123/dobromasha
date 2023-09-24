@@ -22,6 +22,8 @@ export const GlobalStyles = createGlobalStyle`
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-synthesis: none;
+    -webkit-text-size-adjust: 100%;
   }
 
   input,
