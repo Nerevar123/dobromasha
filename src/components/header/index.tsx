@@ -97,7 +97,7 @@ export const Header = () => {
   return (
     <Root>
       <Logo to={''}>
-        <Bold>Maria Dobrovolskaya</Bold>{' '}
+        <Bold>Maria Dobrovolskaya</Bold>
         {location.pathname !== '/' ? (
           <MobileWrapper>
             <Separator>|</Separator>
